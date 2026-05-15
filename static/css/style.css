@@ -1,0 +1,87 @@
+body{
+    background:
+    linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    color:white;
+    overflow-x:hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.glass-card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:25px;
+    box-shadow:0 8px 32px rgba(0,0,0,0.3);
+}
+
+.glass-nav{
+    background:rgba(0,0,0,0.2);
+    backdrop-filter:blur(20px);
+}
+
+.hero-title{
+    font-size:4rem;
+    font-weight:800;
+}
+
+.hero-subtitle{
+    font-size:1.2rem;
+    opacity:0.8;
+}
+
+.upload-box{
+    padding:50px;
+    text-align:center;
+    margin-top:30px;
+    transition:0.3s;
+}
+
+.upload-box:hover{
+    transform:translateY(-10px);
+}
+
+.upload-icon{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.btn-glass{
+    background:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:50px;
+}
+
+.giant-icon{
+    font-size:8rem;
+    margin-bottom:20px;
+}
+
+.floating-card{
+    padding:50px;
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{transform:translateY(0px);}
+    50%{transform:translateY(-20px);}
+    100%{transform:translateY(0px);}
+}
+
+#previewContainer{
+    margin-top:20px;
+}
+
+.file-item{
+    background:rgba(255,255,255,0.1);
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+}

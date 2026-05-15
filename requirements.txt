@@ -1,0 +1,7 @@
+Flask
+PyPDF2
+python-docx
+docxcompose
+
+
+# pip install -r requirements.txt // important it install all requirements that is used by app.py
