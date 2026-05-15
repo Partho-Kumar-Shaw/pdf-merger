@@ -1,4 +1,4 @@
-# 📄 PDF Merger
+# 📄 PDF-Merger 
 
 A simple yet powerful web application for merging multiple PDF and DOCX files into a single document. Built with Flask and designed for ease of use with a clean, intuitive interface.
 
@@ -11,7 +11,7 @@ A simple yet powerful web application for merging multiple PDF and DOCX files in
 - **Automatic File Handling**: Intelligently processes different file formats
 - **Duplicate Prevention**: Automatically filters out duplicate file uploads
 - **Lightweight**: Minimal dependencies and fast processing
-- **Secure File Handling**: Uses secure filename handling to prevent security vulnerabilities
+- **Secure File Handling**: Uses secure filename handling to prevent security vulnerabilities.
 - **Smart Output**: Returns merged PDF if available, otherwise returns merged DOCX
 
 ---
