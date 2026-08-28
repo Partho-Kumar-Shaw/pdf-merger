@@ -11,7 +11,7 @@
     --border-glass-highlight: rgba(244, 63, 94, 0.6);
     
     --text-primary: #ffffff;
-    --text-muted: #94a3b8;
+    --text-muted: #fff;
     --text-light-gray: #cbd5e1;
     
     --red-primary: #e11d48;
@@ -475,4 +475,4 @@ body::after {
         justify-content: center;
     }
 }
-
+
