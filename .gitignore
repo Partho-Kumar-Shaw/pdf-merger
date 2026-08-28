@@ -1,1 +1,2 @@
-echo uploads/ >> .gitignore
+uploads/
+merged/
