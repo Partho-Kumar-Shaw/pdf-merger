@@ -1,2 +1,4 @@
 uploads/
 merged/
+__pycache__/
+*.pyc

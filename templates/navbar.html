@@ -1,28 +1,49 @@
-<nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top ">
+<nav class="navbar navbar-expand-lg navbar-dark glass-nav fixed-top py-3">
   <div class="container">
 
-    <a class="navbar-brand fw-bold fs-3" href="/">
-      <i class="fa-solid fa-layer-group"></i> SmartMerge
+    <a class="navbar-brand fw-bold fs-3 d-flex align-items-center gap-2" href="/">
+      <div class="d-inline-flex align-items-center justify-content-center rounded-3 bg-white bg-opacity-10 px-2 py-1 text-white border border-white border-opacity-20">
+        <i class="fa-solid fa-layer-group fs-5"></i>
+      </div>
+      <span class="text-white">Smart<span class="fw-light text-slate-300">Merge</span></span>
     </a>
 
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+    <button class="navbar-toggler border-white border-opacity-20" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navMenu">
 
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2 mt-3 mt-lg-0">
 
         <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+          <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="/">Home</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/features">Features</a>
+          <a class="nav-link {% if request.path == '/merger' %}active{% endif %}" href="/merger">
+            <i class="fa-solid fa-wand-magic-sparkles me-1 text-white opacity-75"></i> Workspace
+          </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link {% if request.path == '/split' %}active{% endif %}" href="/split">
+            <i class="fa-solid fa-scissors me-1 text-white opacity-75"></i> Split PDF
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/features' %}active{% endif %}" href="/features">Features</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link {% if request.path == '/about' %}active{% endif %}" href="/about">About</a>
+        </li>
+
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-glass-primary btn-sm px-4 py-2" href="/merger">
+            Launch App <i class="fa-solid fa-arrow-right fs-7 ms-1"></i>
+          </a>
         </li>
 
       </ul>
@@ -30,4 +51,4 @@
     </div>
 
   </div>
-</nav>
+</nav>
