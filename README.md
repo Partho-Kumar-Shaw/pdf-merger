@@ -247,7 +247,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## ⭐ Show Your Support
+## ⭐  Show Your Support
 
 If you find this project helpful, please consider:
 - Starring the repository
