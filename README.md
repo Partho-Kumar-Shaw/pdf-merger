@@ -231,7 +231,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Partho Kumar Shaw**
 - GitHub: [@Partho-Kumar-Shaw](https://github.com/Partho-Kumar-Shaw)
-- LinkedIn: [@ParthoKumarShaw](https://linkedin.com/parthokumarshaw)
+- LinkedIn: [@ParthoKumarShaw](https://www.linkedin.com/in/parthokumarshaw/)
 
 ---
 
